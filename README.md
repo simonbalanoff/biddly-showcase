@@ -4,80 +4,83 @@
 
 ### Recruitment, without the chaos.
 
-A modern platform for student organizations to manage recruitment, evaluate prospective members, and keep everyone on the same page.
+A platform built to help student organizations manage recruitment, evaluate prospective members, and keep their chapters on the same page.
 
-**Commercial SaaS · Independently built · Closed source**
+**Independently built · Commercial SaaS · Private source code**
 
 </div>
 
----
+<br />
 
 <p align="center">
-  <img src="assets/dashboard.png" alt="Biddly recruitment dashboard" width="100%" />
+  <img src="assets/dashboard.png" alt="Biddly dashboard showing a fictional recruitment cycle, candidate evaluations, and pipeline status" width="100%" />
 </p>
 
-<p align="center"><sub>Product preview — replace with a screenshot using demonstration data.</sub></p>
+<p align="center"><sub>Recruitment dashboard · Demo data</sub></p>
 
-## Built for real recruitment
+## Why I built it
 
-Biddly started as a tool I built for my own fraternity chapter at Colorado State University. It has since grown into a multi-organization platform designed to make recruitment more organized, collaborative, and manageable.
+Recruitment involves a lot of people, conversations, events, and decisions. I originally built Biddly for my own fraternity chapter at Colorado State University to bring that work into one place.
+
+What began as a chapter tool has grown into a commercial, multi-organization platform that I continue to develop and maintain.
 
 <table>
   <tr>
-    <td align="center" width="50%"><strong>340+</strong><br/><sub>Platform users</sub></td>
-    <td align="center" width="50%"><strong>52</strong><br/><sub>New members recruited in one chapter's Fall 2026 cycle</sub></td>
+    <td align="center" width="50%"><h3>340+</h3><sub>People who have used the platform</sub></td>
+    <td align="center" width="50%"><h3>52</h3><sub>New members recruited by my chapter in Fall 2026</sub></td>
   </tr>
 </table>
-
-## What it does
-
-| | |
-|---|---|
-| **Prospect management** | Keep profiles, evaluations, and recruitment progress in one place. |
-| **Member feedback** | Collect ratings and comments to support collaborative decisions. |
-| **Events & attendance** | Manage events and track interactions with prospective members. |
-| **Roles & permissions** | Give chapter administrators and members appropriate access. |
-| **Multiple organizations** | Support independent workspaces, settings, and branding. |
-| **Reporting** | Export recruitment data and review progress. |
 
 ## Inside Biddly
 
-<table>
-  <tr>
-    <td width="50%"><img src="assets/prospects.png" alt="Prospective member management screen" /></td>
-    <td width="50%"><img src="assets/events.png" alt="Recruitment event management screen" /></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>Prospective member management</sub></td>
-    <td align="center"><sub>Events and attendance</sub></td>
-  </tr>
-</table>
+### Everything in one place
 
-## Under the hood
+Keep track of prospective new members (PNMs), their status in the recruitment process, chapter-wide ratings, and your own evaluations. Search and filter candidates without losing track of where anyone stands.
 
-Built as a TypeScript-first full-stack monorepo, with a Next.js frontend, Fastify API, and PostgreSQL database.
-
-<p>
-  <img src="https://img.shields.io/badge/Next.js-151515?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-151515?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-151515?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Fastify-151515?style=flat-square&logo=fastify&logoColor=white" alt="Fastify" />
-  <img src="https://img.shields.io/badge/PostgreSQL-151515?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Prisma-151515?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
-  <img src="https://img.shields.io/badge/Docker-151515?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/Stripe-151515?style=flat-square&logo=stripe&logoColor=635BFF" alt="Stripe" />
+<p align="center">
+  <img src="assets/candidates.png" alt="Biddly PNM table displaying fictional candidates, recruitment statuses, and scores" width="100%" />
 </p>
 
-**Language distribution** · measured from the private application repository
+<p align="center"><sub>PNM management · Demo data</sub></p>
 
-<img src="assets/languages.svg" alt="TypeScript 77.7%, CSS 22.1%, JavaScript 0.2%" width="100%" />
+### Better decisions, together
+
+Each PNM has a dedicated profile for evaluations, member discussion, and recruitment history. Feedback stays connected to the person and visible to the people who need it.
+
+<p align="center">
+  <img src="assets/profile.png" alt="Biddly fictional candidate profile with score selection, discussion threads, and activity history" width="85%" />
+</p>
+
+<p align="center"><sub>Candidate profile and chapter discussion · Demo data</sub></p>
+
+### A workflow that fits the chapter
+
+Configure recruitment stages, manage active cycles, and keep records from previous recruitment periods. Biddly also supports member permissions, recruitment forms, attendance tracking, and data exports.
+
+<p align="center">
+  <img src="assets/recruitment.png" alt="Biddly recruitment workflow with fictional stage counts and historical cycles" width="100%" />
+</p>
+
+<p align="center"><sub>Recruitment configuration and cycle history · Demo data</sub></p>
+
+## Technology
+
+Biddly is built as a TypeScript-first full-stack monorepo, with a Next.js and React frontend, a Fastify API, and a PostgreSQL database. It also uses Prisma, Docker, and Stripe.
+
+**Next.js** · **React** · **TypeScript** · **Fastify** · **PostgreSQL** · **Prisma** · **Docker** · **Stripe**
+
+<sub>Language distribution from the private application repository</sub>
+
+<p>
+  <img src="assets/languages.svg" alt="Language breakdown: TypeScript 77.7%, CSS 22.1%, JavaScript 0.2%" width="100%" />
+</p>
 
 ## About this repository
 
-This is a public showcase of **Biddly**, an independently developed commercial product. I designed, built, and maintain the application. Its source code and development history are kept in a separate private repository.
+This repository is a public showcase for Biddly, a commercial software product that I designed, built, and maintain. The application source code lives in a separate private repository.
+
+All names, evaluations, discussion posts, and recruitment counts shown in the screenshots are **fictional demonstration data**. The usage figures in the *Why I built it* section describe real-world results.
 
 ---
 
-<div align="center">
-  <sub>Designed and developed by <strong>Simon Balanoff</strong>.</sub>
-</div>
+<p align="center"><sub>Designed and developed by Simon Balanoff.</sub></p>
