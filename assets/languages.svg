@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 64" role="img" aria-labelledby="title desc">
+<title id="title">Biddly language distribution</title>
+<desc id="desc">TypeScript 77.7%, CSS 22.1%, JavaScript 0.2%</desc>
+<defs><clipPath id="bar"><rect x="0" y="0" width="760" height="12" rx="6"/></clipPath></defs>
+<g clip-path="url(#bar)"><rect width="590.52" height="12" fill="#3178c6"/><rect x="590.52" width="167.96" height="12" fill="#663399"/><rect x="758.48" width="1.52" height="12" fill="#f1e05a"/></g>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" fill="#858d99">
+<circle cx="7" cy="42" r="6" fill="#3178c6"/><text x="20" y="47">TypeScript <tspan font-weight="700">77.7%</tspan></text>
+<circle cx="268" cy="42" r="6" fill="#663399"/><text x="281" y="47">CSS <tspan font-weight="700">22.1%</tspan></text>
+<circle cx="464" cy="42" r="6" fill="#f1e05a"/><text x="477" y="47">JavaScript <tspan font-weight="700">0.2%</tspan></text>
+</g>
+</svg>
